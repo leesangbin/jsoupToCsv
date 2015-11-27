@@ -1,0 +1,118 @@
+code,em,textcode,em,textclose-others|Default: true|Control whether expanding an item will cause the other items to close.
+template-url|Default: template/accordion/accordion.html|Add the ability to override the template used on the component.
+is-disabled|Default: false|Whether the accordion group is disabled or not.
+is-open|Default: false|Whether accordion group is open or closed.
+heading|Default: none|The clickable text on the group's header. You need one to be able to click on the header for toggling.
+panel-class|Default: panel-default|Add ability to use Bootstrap's contextual panel classes (panel-primary, panel-success, panel-info, etc...) or your own. This must be a string.
+template-url|Default: template/accordion/accordion-group.html|Add the ability to override the template used on the component.
+ng-model||Model where we set the checkbox status. By default or .
+btn-checkbox-true|Default: true|Sets the value for the checked status.
+btn-checkbox-false|Default: false|Sets the value for the unchecked status.
+uib-btn-radio||Value to assign to the if we check this radio button.
+ng-model||Model where we set the radio status. All radio buttons in a group should use the same .
+uncheckable|Boolean attribute|Whether a radio button can be unchecked or not.
+activeClass|Default: active|Class to apply to the checked buttons.
+toggleEvent|Default: click|Event used to toggle the buttons.
+ng-model||The date object. Needs to be a Javascript Date object.
+datepicker-mode|Defaults: 'day'|Current mode of the datepicker . Can be used to initialize datepicker to specific mode.
+min-date|Default: null|Defines the minimum available date.
+max-date|Default: null|Defines the maximum available date.
+date-disabled (date, mode)|Default: null|An optional expression to disable visible options based on passing date and current mode .
+custom-class (date, mode)|Default: null|An optional expression to add classes based on passing date and current mode .
+show-weeks|Defaults: true|Whether to display week numbers.
+starting-day|Defaults: 0|Starting day of the week from 0-6 (0=Sunday, ..., 6=Saturday).
+init-date||The initial date view when no model value is specified.
+min-mode|Defaults: 'day'|Set a lower limit for mode.
+max-mode|Defaults: 'year'|Set an upper limit for mode.
+format-day|Default: 'dd'|Format of day in month.
+format-month|Default: 'MMMM'|Format of month in year.
+format-year|Default: 'yyyy'|Format of year in year range.
+format-day-header|Default: 'EEE'|Format of day in week header.
+format-day-title|Default: 'MMMM yyyy'|Format of title when selecting day.
+format-month-title|Default: 'yyyy'|Format of title when selecting month.
+year-range|Default: 20|Number of years displayed in year selection.
+shortcut-propagation|Default: false|An option to disable or enable shortcut's event propagation.
+template-url|Default: 'template/datepicker/datepicker.html'|Allows overriding of default template of the datepicker
+uib-datepicker-popup|Default: 'yyyy-MM-dd'|The format for displayed dates.
+show-button-bar|Default: true|Whether to display a button bar underneath the datepicker.
+current-text|Default: 'Today'|The text to display for the current day button.
+clear-text|Default: 'Clear'|The text to display for the clear button.
+close-text|Default: 'Done'|The text to display for the close button.
+close-on-date-selection|Default: true|Whether to close calendar when a date is chosen.
+datepicker-popup-template-url|Default: 'template/datepicker/popup.html'|Allows overriding of default template of the popup
+datepicker-template-url|Default: 'template/datepicker/datepicker.html'|Allows overriding of default template of the datepicker used in popup
+datepicker-append-to-body|Default: false|Append the datepicker popup element to , rather than inserting after . For global configuration, use .
+is-open|Default: false|Whether to show the datepicker.
+on-open-focus|Default: true|Whether to focus the datepicker popup upon opening.
+ng-change||can be used together with to call a function whenever the page changes.
+ng-model||Current page number. First page is 1.
+ng-disabled||Used to disable the pagination component
+total-items||Total number of items in all pages.
+items-per-page|Defaults: 10|Maximum number of items per page. A value less than one indicates all items on one page.
+max-size|Defaults: null|Limit number for pagination size.
+num-pages|Defaults: angular.noop|An optional expression assigned the total number of pages to display.
+rotate|Defaults: true|Whether to keep current page in the middle of the visible ones.
+direction-links|Default: true|Whether to display Previous / Next buttons.
+previous-text|Default: 'Previous'|Text for Previous button.
+next-text|Default: 'Next'|Text for Next button.
+boundary-links|Default: false|Whether to display First / Last buttons.
+first-text|Default: 'First'|Text for First button.
+last-text|Default: 'Last'|Text for Last button.
+template-url|Default: 'template/pagination/pagination.html'|Override the template for the component with a custom provided template
+align|Default: true|Whether to align each link to the sides.
+previous-text|Default: '« Previous'|Text for Previous button.
+next-text|Default: 'Next »'|Text for Next button.
+template-url||_(Default'template/pagination/pager.html') Override the template for the component with a custom provided template
+ng-disabled||Used to disable the pager component
+value||The current value of progress completed.
+type|Default: null|Style type. Possible values are 'success', 'warning' etc.
+max|Default: 100|A number that specifies the total value of bars that is required.
+animate|Default: true|Whether bars use transitions to achieve the width change.
+title|Default: progressbar|Title to use as label (for accessibility)
+ng-model||The current rate.
+max|Defaults: 5|Changes the number of icons.
+readonly|Defaults: false|Prevent user's interaction.
+titles|Defaults: ["one", "two", "three", "four", "five"]|An array of Strings defining titles for all icons
+on-hover(value)||An optional expression called when user's mouse is over a particular icon.
+on-leave()||An optional expression called when user's mouse leaves the control altogether.
+state-on|Defaults: null|A variable used in template to specify the state (class, src, etc) for selected icons.
+state-off|Defaults: null|A variable used in template to specify the state for unselected icons.
+rating-states|Defaults: null|An array of objects defining properties for all icons. In default template, & property is used to specify the icon's class.
+vertical|Defaults: false|Whether tabs appear vertically stacked.
+justified|Defaults: false|Whether tabs fill the container and have a consistent width.
+type|Defaults: 'tabs'|Navigation type. Possible values are 'tabs' and 'pills'.
+heading||or Heading text or HTML markup.
+active|Defaults: false|Whether tab is currently selected.
+disable|Defaults: false|Whether tab is clickable and can be activated. Note that this was previously the attribute, which is now deprecated.
+select()|Defaults: null|An optional expression called when tab is activated.
+deselect()|Defaults: null|An optional expression called when tab is deactivated.
+ng-model||The Date object that provides the time state.
+hour-step|Defaults: 1|Number of hours to increase or decrease when using a button.
+minute-step|Defaults: 1|Number of minutes to increase or decrease when using a button.
+show-meridian|Defaults: true|Whether to display 12H or 24H mode.
+meridians|Defaults: null|Meridian labels based on locale. To override you must supply an array like ['AM', 'PM'].
+readonly-input|Defaults: false|Whether user can type inside the hours & minutes input.
+mousewheel|Defaults: true|Whether user can scroll inside the hours & minutes input to increase or decrease it's values.
+arrowkeys|Defaults: true|Whether user can use up/down arrowkeys inside the hours & minutes input to increase or decrease it's values.
+show-spinners|Defaults: true|Shows spinner arrows above and below the inputs
+min|Defaults: undefined|Minimum time a user can select
+max|Defaults: undefined|Maximum time a user can select
+tabindex|Defaults: 0|Sets tabindex for each control in timepicker
+options(obj)||Provide a set of defaults for certain tooltip and popover attributes. Currently supports 'placement', 'animation', 'popupDelay', and . Here are the defaults:
+ng-model||Assignable angular expression to data-bind to
+typeahead||Comprehension Angular expression (see )
+typeahead-append-to-body|Defaults: false|Should the typeahead popup be appended to $body instead of the parent element?
+typeahead-append-to-element-id|Defaults: false|Should the typeahead popup be appended to an element id instead of the parent element?
+typeahead-editable|Defaults: true|Should it restrict model values to the ones selected from the popup only ?
+typeahead-focus-first|Defaults: true|Should the first match automatically be focused as you type?
+typeahead-input-formatter|Defaults: undefined|Format the ng-model result after selection
+typeahead-loading|Defaults: angular.noop|Binding to a variable that indicates if matches are being retrieved asynchronously
+typeahead-min-length|Defaults: 1|Minimal no of characters that needs to be entered before typeahead kicks-in. Must be greater than or equal to 1.
+typeahead-no-results|Defaults: angular.noop|Binding to a variable that indicates if no matching results were found
+typeahead-on-select($item, $model, $label)|Defaults: null|A callback executed when a match is selected
+typeahead-select-on-exact|Defaults: false|Should it automatically select an item when there is one option that exactly matches the user input?
+typeahead-template-url||Set custom item template
+typeahead-popup-template-url|Defaults: template/typeahead/typeahead-popup.html|Set custom popup template
+typeahead-wait-ms|Defaults: 0|Minimal wait time after last character typed before typeahead kicks-in
+typeahead-select-on-blur|Defaults: false|On blur, select the currently highlighted match
+typeahead-focus-on-select||_(Defaultstrue) On selection, focus the input element the typeahead directive is associated with
