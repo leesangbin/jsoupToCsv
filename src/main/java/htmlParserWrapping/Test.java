@@ -108,6 +108,7 @@ public class Test {
 				fileWriter.append(COMMA_DELIMITER);
 				fileWriter.append(properties2.getText());
 				fileWriter.append(NEW_LINE_SEPARATOR);
+
 			}
 
 		}
